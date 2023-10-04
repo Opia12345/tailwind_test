@@ -1,17 +1,13 @@
 import { useState } from 'react'
-import './App.css'
 import '../dist/output.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './Pages/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     <nav>
-      <div className="logog">
-        <b className='font-black text-3xl'>Logo</b>
-      </div>
-     </nav>
+    <Home />
     </>
   )
 }
