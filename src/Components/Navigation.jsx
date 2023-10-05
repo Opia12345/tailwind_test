@@ -5,7 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 const Navigation = () => {
   return (
     <>
-    <nav className="flex justify-between align-center p-4 px-8 py-5">
+    <nav className="flex justify-between items-center backdrop-blur-sm p-4 px-8 py-5 bg-slate-100/20 border fixed top-0 w-full">
             <b className="font-black">LOGO</b>
         <div className="nav-links space-x-3 hidden md:block">
             <a href="#" className="hover:text-blue-900 text-blue-900 focus:text-blue-900">Home</a>

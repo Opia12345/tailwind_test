@@ -4,21 +4,21 @@
 
 header {
     background: url(Path.png);
-    background-size: 70%;
+    background-size: 20em;
     object-fit: cover;
-    object-position: right;
-    height: 50vh;
+    margin-top: 4em;
+    object-position: center;
+    height: 80vh;
     background-repeat: no-repeat;
     width: 100%;
     background-position-x: right;
-    background-position-y: center;
+    background-position-y: top;
 }
 .sec-1 {
     background: url(mobile.png);
-    background-size: 40%;
+    background-size: 20em;
     object-fit: cover;
     object-position: right;
-    height: 50vh;
     background-repeat: no-repeat;
     width: 100%;
     background-position-x: right;

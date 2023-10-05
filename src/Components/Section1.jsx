@@ -17,9 +17,9 @@ const Section1 = () => {
             </h4>
         </div>
         <div className="icon-grp mt-4 m-14 ">
-          <div className="grp flex space-x-10">
+          <div className="grp grid md:grid-cols-2 gap-2 grid-cols-1">
           <div className="one">
-            <img src='Left.png' />
+            <img src='Left.png' className='mb-4' />
             <span>
               <b>Title Goes Here</b><br />
               <small>Lorem ipsum dolor sit amet, consectetuer <br />
@@ -28,7 +28,7 @@ const Section1 = () => {
           </div>
 
           <div className="one">
-            <img src='Left.png' />
+            <img src='Left.png' className='mb-4' />
             <span>
               <b>Title Goes Here</b><br />
               <small>Lorem ipsum dolor sit amet, consectetuer <br />

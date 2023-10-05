@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
     <header>
-        <div className="txt p-14">
+        <div className="txt p-14 mt-4">
         <h1 className='font-black text-3xl'>
             Introduce Your Product <br /> Quickly & Effectively</h1>
             <h4 className='mt-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br /> 
