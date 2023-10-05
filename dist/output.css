@@ -1344,6 +1344,12 @@ video {
   justify-items: stretch;
 }
 
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1903,6 +1909,10 @@ video {
   padding: 0.25rem;
 }
 
+.p-14 {
+  padding: 3.5rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -2435,8 +2445,26 @@ video {
 
 header {
   background: url(Path.png);
-  background-size: 60%;
-  height: 40vh;
+  background-size: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
+  height: 50vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.sec-1 {
+  background: url(mobile.png);
+  background-size: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
+  height: 50vh;
   background-repeat: no-repeat;
   width: 100%;
   background-position-x: right;
