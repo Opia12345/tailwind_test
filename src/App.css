@@ -14,13 +14,3 @@ header {
     background-position-x: right;
     background-position-y: top;
 }
-.sec-1 {
-    background: url(mobile.png);
-    background-size: 20em;
-    object-fit: cover;
-    object-position: right;
-    background-repeat: no-repeat;
-    width: 100%;
-    background-position-x: right;
-    background-position-y: center;
-}
