@@ -3,8 +3,7 @@ import React from 'react'
 const Section3 = () => {
   return (
     <>
-    <section className='sec-2 flex flex-wrap'>
-          <img src="peeps.png" className='w-64 m-14' alt="" />
+    <section className='sec-2 flex justify-evenly flex-wrap'>
         <div className="txt m-14">
             <h1 className='font-medium text-3xl'>
             Light, Fast & Powerful
@@ -17,6 +16,7 @@ const Section3 = () => {
               <br /> Nulla consequat massa quis enim.
             </h4>
         </div>
+          <img src="peeps.png" className='w-64 m-14' alt="" />
         </section>
     </>
   )

@@ -3,7 +3,7 @@ import React from 'react'
 const Section2 = () => {
   return (
     <>
-        <section className='sec-2 flex flex-wrap'>
+        <section className='sec-2 flex justify-evenly flex-wrap'>
           <img src="sec2.png" className='w-64 m-14' alt="" />
         <div className="txt m-14">
             <h1 className='font-medium text-3xl'>

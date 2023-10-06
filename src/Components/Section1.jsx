@@ -4,7 +4,7 @@ const Section1 = () => {
   return (
     <>
     <section className='sec-1'>
-      <div className="content flex justify-between flex-wrap-reverse">
+      <div className="content flex justify-evenly flex-wrap-reverse">
         <div>
         <div className="txt m-14">
           <div className='text'>
@@ -42,7 +42,7 @@ const Section1 = () => {
           </div>
         </div>
         </div>
-        <img src="mobile.png" className='m-14 w-64 justify-self-end' alt="" />
+        <img src="mobile.png" className='m-14 w-64' alt="" />
       </div>
     </section>
     </>
