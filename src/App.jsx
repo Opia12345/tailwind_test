@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import '../dist/output.css'
+import '../distr/output.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import Navigation from './Components/Navigation'
