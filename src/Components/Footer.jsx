@@ -10,13 +10,13 @@ const Footer = () => {
            <b>LOGO</b>
         </div>
         <hr className='mt-8' />
-        <div className="grp-2 flex justify-between px-8 items-center mb-4 mt-4">
-            <div className="space-x-3">
+        <div className="grp-2 flex justify-center md:justify-between space-y-4 space-x-10 flex-wrap px-10 items-center mb-4 mt-4">
+            <div className="space-x-4">
                 <a href="" className='hover:text-blue-900 text-blue-900 focus:text-blue-900'>Home</a>
                 <a href="" className="hover:text-blue-900 focus:text-blue-900">Contact</a>
                 <a href="" className="hover:text-blue-900 focus:text-blue-900">About</a>
             </div>
-            <div className="icons space-x-4">
+            <div className="space-x-4">
             <FontAwesomeIcon icon={faFacebook} />
             <FontAwesomeIcon icon={faTwitter} />
             <FontAwesomeIcon icon={faLinkedin} />
