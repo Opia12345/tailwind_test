@@ -12,8 +12,8 @@ const Hero = () => {
              penatibus et magnis dis parturient montes, nascetur ridiculus <br />
 mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, <br /> sem. Nulla consequat massa quis enim.</h4>
             <div className="btn-grp space-x-3 mt-4">
-                <button className='bg-blue-900 px-3 py-1 rounded text-white hover:scale-95 transition duration-700 hover:shadow-xl'>Purchase UI Kit</button>
-                <button className='border border-blue-900 px-3 py-1 rounded text-blue-900 hover:bg-blue-900 hover:text-white transition duration-300'>Learn More</button>
+                <button className='btn1'>Purchase UI Kit</button>
+                <button className='btn2'>Learn More</button>
             </div>
         </div>
     </header>
