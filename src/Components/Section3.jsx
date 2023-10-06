@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Section2 = () => {
+const Section3 = () => {
   return (
     <>
-        <section className='sec-2 flex flex-wrap'>
-          <img src="sec2.png" className='w-64 m-14' alt="" />
+    <section className='sec-2 flex flex-wrap'>
+          <img src="peeps.png" className='w-64 m-14' alt="" />
         <div className="txt m-14">
             <h1 className='font-medium text-3xl'>
             Light, Fast & Powerful
@@ -16,11 +16,10 @@ const Section2 = () => {
               mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
               <br /> Nulla consequat massa quis enim.
             </h4>
-            <button className='btn1 mt-4'>Purchase Now</button>
         </div>
         </section>
     </>
   )
 }
 
-export default Section2
+export default Section3
